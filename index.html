@@ -1,0 +1,838 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soy Franco Pozzi, Front-End Developer y este es mi portfolio personal. ¡Ingresa y contáctame!">
+    <meta name="keywords" content="desarrollo web, paginas web, comercio online, front end, aplicaciones web, seo, back end"/>
+    <meta name="author" content="Franco Javier Pozzi"/>
+
+    <!--================================= Swiper CSS =================================-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--================================= CSS =================================-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Portfolio Personal Franco Pozzi</title>
+</head>
+
+keywords" content="desarrollo web, paginas web, comercio online, front end, aplicaciones web, seo, back end
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Franco Pozzi</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <img src="icons/estate.svg" alt="home-icon" class="nav__icon">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <img src="icons/user-md.svg" alt="sobre-mi-icon" class="nav__icon">
+                            Sobre mi
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <img src="icons/file-graph.svg" alt="sobre-mi-icon" class="nav__icon">
+                            Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <img src="icons/briefcase-alt.svg" alt="servicios-icon" class="nav__icon">
+                            Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <img src="icons/scenery.svg" alt="portfolio-icon" class="nav__icon">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <img src="icons/envelope-edit.svg" alt="contactame-icon" class="nav__icon">
+                            Contáctame
+                        </a>
+                    </li>
+                </ul>
+
+                <img src="icons/times.svg" alt="cerrar-menu-icon" class="nav__close" id="nav-close">
+            </div>
+
+            <div class="nav__btns">                
+                <img src="icons/moon.svg" id="theme-button" class="change-theme moon">
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <img src="icons/apps.svg" alt="menu-icon" class="menu__icon">
+                </div>
+            </div>            
+        </nav>
+    </header>
+
+    <main class="main" id="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://linkedin.com/in/francopozzi" target="_blank" class="home__social-icon">
+                            <img src="icons/linkedin-alt.svg" alt="linkedin-link">
+                        </a>
+
+                        <a href="https://github.com/franco-pozzi" target="_blank" class="home__social-icon">
+                            <img src="icons/github-alt.svg" alt="github-logo">
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x='0' y='0' xlink:href="img/francop2.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hola, Soy Franco Pozzi</h1>
+                        <h3 class="home__subtitle">Front-End Developer</h3>
+                        <p class="home__description">
+                            Desarrollo paginas y aplicaciones
+                            web, seguras y aptas para todos los
+                            dispositivos.<br>Con amplio conocimiento en el sector
+                            comercial y constante capacitacion en ultimas tecnologias.
+                        </p>
+                        <div class="home__button">
+                            <a href="#contact" class="button button--flex">
+                                Contáctame
+                                <img src="icons/envelope-edit3.svg" alt="contactame-logo"
+                                    class="button__icon home__button__icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <img src="icons/mouse-alt-2.svg" alt="mouse-logo" class="home__scroll-mouse">
+                        <span class="home__scroll-name">Scroll down</span>
+                        <img src="icons/arrow-down.svg" alt="flecha-logo" class="home__scroll-arrow">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre mi</h2>
+            <span class="section__subtitle">Un pequeño resumen</span>
+
+            <div class="about__container container grid">
+                <img src="img/francop3.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        A traves de mi experiencia de varios años trabajando con el sector comercial,
+                        mi tarea es hacer crecer tu negocio.<br> Soy una persona detallista y amante
+                        de la tecnologia; si algo no lo sé, lo aprendo. <br>
+                        Altamente motivado y orientado a conseguir resultados
+                        modernos y de calidad.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">+ 09</span>
+                            <span class="about__info-name">Años de<br> experiencia</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">+ 10</span>
+                            <span class="about__info-name">Certificados <br> obtenidos</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">+ 03</span>
+                            <span class="about__info-name">Capacitaciones <br> en curso</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="pdf/francoCV.pdf" class="button button--flex">
+                            Descargar CV
+                            <img src="icons/file-download-alt.svg" alt="cv-download"
+                                class="button__icon about__button__icon">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="qualification section">
+                <h2 class="section__title">Experiencia</h2>
+                <span class="section__subtitle">Un breve viaje personal</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <img src="icons/graduation-cap2.svg" alt="educacion-icon" class="qualification__icon">
+                            Educación
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target='#work'>
+                            <img src="icons/briefcase-alt2.svg" alt="educacion-icon" class="qualification__icon">
+                            Empleos
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <div class="qualification__content qualification__active" data-content id="education">
+
+                            <div class="qualification__data">
+                                <div class="qualification-left">
+                                    <h3 class="qualification__title">Especialización en Python</h3>
+                                    <span class="qualification__subtitle">University of Michigan</span>
+                                    <div class="qualification__calendar">
+                                        <a target="_blank"
+                                            href="https://www.coursera.org/account/accomplishments/specialization/certificate/8A24Q2B3QV4M"
+                                            class="qualification__cert">
+                                            Ver Certificado<br><br><br>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div class="qualification-rigth">
+                                    <h3 class="qualification__title">HTML, CSS y Javascript <br> para Desarrolladores
+                                        Web
+                                    </h3>
+                                    <span class="qualification__subtitle">The Johns Hopkins University</span>
+                                    <div class="qualification__calendar">
+                                        <a target="_blank"
+                                            href="https://www.coursera.org/account/accomplishments/certificate/XQ8R5P3LKHUM"
+                                            class="qualification__cert">
+                                            Ver Certificado<br><br><br>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div class="qualification-left">
+                                    <h3 class="qualification__title">Especialización en Django</h3>
+                                    <span class="qualification__subtitle">University of Michigan</span>
+                                    <div class="qualification__calendar">
+                                        <a target="_blank"
+                                            href="https://www.coursera.org/account/accomplishments/specialization/certificate/H3R2H9D56EQ2"
+                                            class="qualification__cert">
+                                            Ver Certificado <br><br><br>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+
+                                <div class="qualification-rigth">
+                                    <h3 class="qualification__title">Desarrollo Front-End con React</h3>
+                                    <span class="qualification__subtitle">Universidad Científica y Tecnológica de Hong
+                                        Kong</span>
+                                    <div class="qualification__calendar qualification__cert">
+                                        En progreso
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__content" data-content id="work">
+
+                            <div class="qualification__data">
+                                <div class="work__data qualification-left">
+                                    <h3 class="qualification__title">Tecnico en Garmin</h3>
+                                    <span class="qualification__subtitle">Mar del Plata - Argentina</span>
+                                    <div class="qualification__calendar">
+                                        <img src="icons/schedule.svg" alt="calendar-icon" class="calendar__icon">
+                                        2010 - 2012
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div class="work__data">
+                                    <h3 class="qualification__title">Inspector Habilitaciones</h3>
+                                    <span class="qualification__subtitle">Mar del Plata - Argentina</span>
+                                    <div class="qualification__calendar">
+                                        <img src="icons/schedule.svg" alt="calendar-icon" class="calendar__icon">
+                                        2013 - Actualidad<br><br><br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div class='qualification-left'>
+                                    <h3 class="qualification__title">Desarrollador Web</h3>
+                                    <span class="qualification__subtitle">Freelancer</span>
+                                    <div class="qualification__calendar">
+                                        <img src="icons/schedule.svg" alt="calendar-icon" class="calendar__icon">
+                                        2019 - Actualidad<br><br><br>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Nivel de conocimiento</span>
+
+            <div class="skills__container container grid">
+                <div>
+
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <img src="icons/brackets-curly.svg" alt="front-end icon" class="skills__icon">
+
+                            <div>
+                                <h1 class="skills__title">Front-End Developer</h1>
+                                <span class="skills__subtitle">Mas de 2 años</span>
+                            </div>
+
+                            <img src="icons/angle-down.svg" alt="front-end-info" class="skills__arrow">
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">En Progreso</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <img src="icons/server-network.svg" alt="back-end icon" class="skills__icon">
+
+                            <div>
+                                <h1 class="skills__title">Back-End Developer</h1>
+                                <span class="skills__subtitle">Mas de 1 año</span>
+                            </div>
+
+                            <img src="icons/angle-down.svg" alt="front-end-info" class="skills__arrow">
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Django</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__django"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">NodeJs</h3>
+                                    <span class="skills__number">En Progreso</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h2 class="section__title">Servicios</h2>
+            <span class="section__subtitle">Tipos de servicios</span>
+
+            <div class="services__container container grid">
+                <div class="services__content">
+
+                    <div>
+                        <img src="icons/arrow.svg" alt="frontend-icon" class="services__icon">
+                        <h3 class="services__title">Front-End <br>Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver Más
+                        <img src="icons/arrow-right.svg" alt="ver-mas-icon" class="button__icon">
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Front-End <br> Developer </h4>
+                            <img src="icons/times.svg" alt="close-icon" class="services__modal-close">
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Realizacion de proyecto web.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Creacion de tienda Online.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Creacion de landing page.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Verificacion y solucion de errores en webs.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Actualizacion y optimización Seo en buscadores</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Creacion de logos y branding de la compañia.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Posicionamiento de compañia y analisis de mercado.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__content">
+                    <div>
+                        <img src="icons/cog.svg" alt="backend-icon" class="services__icon">
+                        <h3 class="services__title">Back-end <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver Más
+                        <img src="icons/arrow-right.svg" alt="ver-mas-icon" class="button__icon">
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Backend <br> Developer</h4>
+                            <img src="icons/times.svg" alt="close-icon" class="services__modal-close">
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Automatizacion de tareas.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Incorporacion de medios de pagos o servicios.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Chats y gestor de tareas internos.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <img src="icons/check.svg" alt="check-icon" class="services__modal-icon">
+                                    <p>Creacion y diseño de base de datos.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">PortFolio</h2>
+            <span class="section__subtitle">Mis ultimos proyectos</span>
+
+            <div class="portfolio__container container swiper-container mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">PortFolio Personal</h3>
+                            <p class="portfolio__description">
+                                Portfolio personal utilizando un diseño moderno, full-responsive
+                                y con tema oscuro / claro.
+                            </p>
+                            <div class="portfolio__button-div">
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <img src="icons/arrow-right2.svg" alt="ver-demo" class="button__icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Tienda Online</h3>
+                            <p class="portfolio__description">
+                                Tienda Online organizada, con multiples funciones, adaptable y
+                                orientada al publico objetivo.
+                            </p>
+                            <div class="portfolio__button-div">
+                                <a href="#porfolio" class="button button--flex button--small portfolio__button">
+                                    Próximamente
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Landing Page</h3>
+                            <p class="portfolio__description">
+                                Especial para profesionales que buscan publicitar su empleo,
+                                enfocado en conseguir mas clientes y dar a conocer su trabajo.
+                            </p>
+                            <div class="portfolio__button-div">
+                                <a href="#portfolio" class="button button--flex button--small portfolio__button">
+                                    Proximamente
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <img src="icons/angle-right.svg" alt="alternar-proyecto" class="swiper-portfolio-icon">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="icons/angle-left.svg" alt="alternar-proyecto" class="swiper-portfolio-icon">
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Tenes un proyecto o idea en mente?</h2>
+                        <p class="project__description">
+                            ¡Contactame ahora y obtene un 20% de descuento por tiempo limitado!
+                        </p>
+                        <a href="#contact" class="button button--flex button--white project__button">
+                            Contáctame
+                            <img src="icons/envelope-edit2.svg" alt="contactame-icon"
+                                class="button__icon project__icon">
+                        </a>
+                    </div>
+
+                    <img src="img/francop.png" alt="foto-perfil" class="project__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial section">
+            <h2 class="section__title">Recomendaciones</h2>
+            <span class="section__subtitle">Co-Workers / Clientes</span>
+
+            <div class="testimonial__container container">
+                <div>
+
+                    <div class="testimonial__content">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Jano Sisti</h3>
+                                    <span class="testimonial__client">Co-Worker Front-End Developer</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">
+                            Trabaje con Franco Pozzi en diferentes proyectos, es una persona muy capaz y amigable,
+                            a la hora de encarar una tarea no es complicado trabajar en equipo. Lo tendre en cuenta
+                            en futuras oportunidades.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__content">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                <div>
+                                    <h3 class="testimonial__name">Damián De Lio</h3>
+                                    <span class="testimonial__client">Front-End Developer</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                                <img src="icons/star.svg" alt="star-icon" class="testimonial__icon-star">
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">
+                            Franco Pozzi acudio a mí para realizarme consultas y clases particulares, debido
+                            a mi mayor experiencia y conocimiento en las tecnologias en las que se desempeña.
+                            Es una persona de facil aprendizaje y muy puntual.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contáctame</h2>
+            <span class="section__subtitle">Contame tu idea</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__infoall">
+                    <div class="contact__information">
+                        <img src="icons/mobile-android.svg" alt="mobile-icon" class="contact__icon">
+
+                        <div>
+                            <h3 class="contact__title">Telefono</h3>
+                            <span class="contact__subtitle">(+549) - 223 6688203</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <img src="icons/envelope-add.svg" alt="email-icon" class="contact__icon">
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">francojpozzi@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <img src="icons/map-marker.svg" alt="mapa-icon" class="contact__icon">
+
+                        <div>
+                            <h3 class="contact__title">Ubicacion</h3>
+                            <span class="contact__subtitle">Mar del plata - Argentina</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Proyecto</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="#contact" class="button button--flex">
+                            En construcción
+                            <!-- <img src="icons/message.svg" alt="enviar-formulario-icon" class="button__icon"> -->
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Franco Pozzi</h1>
+                    <span class="footer__subtitle">Front-End Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contactame</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="#" class="footer__social">
+                        <img src="icons/facebook-f.svg" alt="facebook-link" class="button__icon">
+                    </a>
+
+                    <a href="#" class="footer__social">
+                        <img src="icons/instagram2.svg" alt="instagram-link" class="button__icon">
+                    </a>
+
+                    <a href="#" class="footer__social">
+                        <img src="icons/youtube.svg" alt="youtube-link" class="button__icon">
+                    </a>
+
+                    <a href="#" class="footer__social">
+                        <img src="icons/twitter-alt.svg" alt="twitter-link" class="button__icon">
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; FrancoPozzi. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <img src="icons/arrow-up.svg" alt="volver-inicio" class="scrollup__icon">
+    </a>
+
+    <!--================================= SWIPER JS =================================-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--================================= MAIN JS =================================-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
